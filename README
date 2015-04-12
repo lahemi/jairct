@@ -1,0 +1,13 @@
+
+ Just Another IRC Thing
+
+ The first base version of the client.
+
+ 
+ Requires https://github.com/mattn/go-sqlite3
+
+
+ 2015 - Lauri Peltomäki
+
+ No rights reserved, do the fuck you want, no warranty et cetera.
+

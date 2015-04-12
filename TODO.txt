@@ -1,0 +1,25 @@
+
+
+Get the reverse DNS|virtual host that is shown to others from, eg. the first
+channel join and then use that automatically for PRIVMSG.
+
+
+A sub-program (or different one althogether) that can connect to the main jairct
+application and use that for viewing and sending messages.
+The point being, that the main jairct is running constantly on the background,
+and the other app works as a sort of client for to this, so that it can
+connected and disconnected without losing the underlaying IRC connection and
+message storing. Also, possible for multiple clients to connect to the same
+session, viewing and using only specific parts of all the traffic.
+
+
+Handle splits and related proper reconnects.
+
+
+A search wrapper|front-end for looking up stored stuffes from the DB.
+(UNIX time to local date converter as well.)
+
+
+Proper text config file instead of config.go.
+(Nice little parser for this or use existing, say, json or ini libs?)
+
